@@ -1,4 +1,3 @@
-// const CharacterMod= require('./CharacterMod');
 import CharacterMod from './CharacterMod';
 
 export default class Daemon extends CharacterMod {

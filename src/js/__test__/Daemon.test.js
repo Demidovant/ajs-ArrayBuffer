@@ -1,4 +1,3 @@
-// const Daemon = require('../Daemon');
 import Daemon from '../Daemon';
 
 test('Проверка создания персонажа Daemon', () => {

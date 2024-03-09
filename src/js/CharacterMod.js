@@ -1,4 +1,3 @@
-// const Character = require('./Character');
 import Character from './Character';
 
 export default class CharacterMod extends Character {

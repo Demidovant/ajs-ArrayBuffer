@@ -1,13 +1,7 @@
-const { CharacterMod } = require('./CharacterMod');
+import CharacterMod from './CharacterMod';
 
-class Magician extends CharacterMod {
-  constructor(name, attack, stoned = false) {
-    const type = 'Magician';
-    super(type, attack, stoned);
-    this.name = name;
+export default class Magician extends CharacterMod {
+  constructor(name, attack) {
+    super(name, 'Magician', attack);
   }
 }
-
-module.exports = {
-  Magician,
-};
